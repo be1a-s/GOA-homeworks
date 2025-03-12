@@ -4,4 +4,4 @@ name = input("enter your name: ")
 
 type_name = type(name)
 
-print(type)
+print(type_name)
