@@ -6,11 +6,12 @@ productive ცვლადი იქნება ჭეშმარიტი (Tr
 
 
 
-read_pages = int(input("enter your read pages number: "))
+read_pages = 20
 
-free_time = read_pages >= 30  and  read_pages <60
+free_time = True
 
 productiv = read_pages  <= 30 or   read_pages >20
 
-print(bool(free_time))
-print(bool(productiv))
+print(productiv)
+
+
