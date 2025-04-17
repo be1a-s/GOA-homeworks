@@ -3,6 +3,7 @@
 text = input("enter your text: ")
 
 xmovani = ""
+tanxmovani= ""
 
 for i in text:
     if i == "a":
@@ -25,5 +26,9 @@ for i in text:
         xmovani += i
     elif i == "U":
         xmovani += i
+    else:
+        tanxmovani+= i
+
     
 print(len(xmovani))
+print(len(tanxmovani))
