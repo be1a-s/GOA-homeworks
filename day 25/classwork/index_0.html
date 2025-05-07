@@ -1,0 +1,20 @@
+<!-- 1) ვევგვერდზე დააამატეთ 2 ღილაკი და 1 სურათი, როდესაც მომხმარებელი დააჭერს პირველ ღილაკს სურათის წყარო უნდა შეიცვალოს (თქვენის სასურველი მისმარითით) და როდესაც მოხმარელი დააჭერს მეორე ღილაკს სურათის მისამართი უნდა დაბრუნდეს თავდაპირველ წყაროს. დაამტეთ კიდევ ერთი ღილაკი რომელზე დაჭერისასც მომხარებლს გამოუვა გამაფრთხილებელი ტექსტი: "Hello, have a nice day" -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+        <button onclick="img1.src='image2.png'">change</button>
+        <button onclick="img1.src='image.png'">change back</button>
+        <br>
+        <br>
+        <img src="image.png" id="img1">
+        <br>
+        <br>
+        <button onclick="alert('hello, have a nice day')">click here</button>
+    </body>
+</html>
