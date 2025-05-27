@@ -1,0 +1,39 @@
+<!-- 1) შექმენით h1, p, button, img და შემდეგ გასტილეთ internal css-ის გზით: თითოეულ ელემენტს შეუცვალეთ სტილი css-ის წესების გამოყენებით. CSS-ის სინტაქსი ახსენით კომენტარებით.
+
+ /* CSS  COMMENT */ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body/*body არის  ელემენტი ან ელემენტების ჯგუფი რომელსაც ვსტლივათ ანუ selector-ი*/  {
+                   background-color: black /*CSS-ის დეკლარაცია რომლითაც ვცლით ელემენტის ვიზუალურ მხარეს*/ ;/* ერთმანეთისგან გამოვყოფთ სხვადასხვა დეკლარაციებს   */
+            } /*ფიგურილი ბრჩხილები, რომელშიც ყვეალა CSS-ob დეკლარაციას ვწერთ რომლითაც გვინდა რომ გავსტლიოთ selector */
+            div{
+                color: red;
+                text-align: center;
+            }
+            button{
+                border: 2px red solid;
+                background-color: blue;
+                border-radius: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>hello</h1>
+            <br><br>
+            <p>world</p>
+            <br><br>
+            <button>goa is the best</button>
+            <br><br>
+            <img src="1704116488954.jpg" alt="">
+        </div>
+    </body>
+ </html>
+ <!-- css-ის წერის სინტაქსი ეწოდება css კოდის დამწერლობას შედგება selector-ისგან ფიგურული ფრჩხილებისგან და დეკლარაციებისგან  -->
