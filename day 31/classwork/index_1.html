@@ -1,0 +1,49 @@
+<!-- 2) კომენტარებით დაწერეთ CSS-ის სხვადსხვა წესების სელექტორად იგივე ელემენტი როდესაც გვაქვს რომელი სტილი იმარჯვებს, რომელი სელექტორია ყველაზე პრიორიტეტული. მოიყვანეთ ყველა დონის მაგალითი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        /* ელემენტის სელექტორი */
+        p {
+            background-color: purple;
+            text-align: center;
+        
+        }
+        /* აიდის სელექტორი */
+        #firstheader {
+            color: red;
+        }
+        /* კლასის სელექტორი */
+        .div2 {
+            background-color: purple;
+            text-align: center;
+        }
+        /* პრიორიტეტები */
+        /* inline */
+        /* id სელექტორი */
+        /* class სელექტორი */
+        
+    </style>
+</head>
+<body>
+     <div>
+        <!-- იმშავებს ელემენტის სელექტორი -->
+         <p>hello</p>
+         <button>click</button>
+        </div>
+         <!-- იმშავებს აიდის სელექტორი -->
+        <div>
+         <h2 id="firtheader" >hello</h2>
+         <button>click</button>
+        </div>
+         <!-- იმშავებს კლასის სელექტორი -->
+        <div class="div2">
+         <h2>hello</h2>
+         <button>click</button>
+        </div>
+</body>
+</html>

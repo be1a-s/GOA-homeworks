@@ -1,0 +1,37 @@
+<!-- 4) თქვენის სიტყვებით ახსენით და კომენტარებით დაწერეთ CSS specificity (ბრაუზერის ალგორითმი რომელიც პრიორიტეტების მიხედვით ანიჭებს ელემენტებს სტილს) მოიყვანეთ 4-ივე შემთხვევის მაგალითი -->
+
+<!-- CSS specificity არის წესი რომელიც განსაზღვრავს რომელი სტილი მოიგებს როცა ერთსა და იმავე ელემენტზე რამოდენიმე წესი ვრცელდება -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .p1 {
+                color: aqua;
+                text-align: center;
+            }
+
+            #firstparagraf{
+                color: rgb(64, 0, 255);
+                text-align: center;
+            }
+
+            p {
+                color: brown;
+                text-align: center;
+            }
+        /* პრიორიტეტები */
+        /* inline */
+        /* id სელექტორი */
+        /* class სელექტორი */
+        /* თეგით გასტილვა */
+        </style>
+    </head>
+    <body>
+        <p style="color:green; text-align: center;" class="p1" id="firstparagraf">paragraf</p>
+    </body>
+</html>
+<!-- ამშემთხვევაში გაიმარჯვა inline რადგან ბრაუზერმა უპირატესობა მიანიჭა მას -->
