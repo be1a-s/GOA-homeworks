@@ -1,0 +1,15 @@
+#div1 {
+    background-color: rgb(255,0,0);
+    width: 200px;
+}
+
+#div2 {
+    background-color: rgb(0,255,0);
+    height: 300px;
+}
+
+#div3 {
+    background-color: rgb(0,0,255);
+    width: 150px;
+    height: 150px;
+}
