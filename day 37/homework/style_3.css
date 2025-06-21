@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+Old+Italic&display=swap');
+
+body {
+    background-color: rgb(74, 166, 74);
+    font-family: "Noto Sans Old Italic", sans-serif;
+    text-align: center;
+}
+
+#firstheader {
+    text-align: center;
+    font-size: small;
+}
+
+#div1 {
+    background-color: aliceblue;
+    width: 200px;
+    height: 305px;
+    margin-left: 36.5%;
+}
+
+h2  {
+    margin-top: 70%;
+    font-size:large;
+}
+
+#p2 , #p3 {
+    font-size: x-small;
+}
+
+
+#p1 {
+    background-color: black;
+    color: aliceblue;
+    
+    
+}
+
