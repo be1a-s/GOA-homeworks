@@ -1,0 +1,45 @@
+/* 2) შექმენით ნავიგაცია რომელშიც იქნება 3 ბმული, თითოეულს pseudo class-ის გამოყენებით შეუჩვალეთ hover და active მდოგმარეობებისას ტექსტის ფერი და დამატებით 2 კუთვნილება. კომენტარებით თუ რა არის pseudo class და მდგომარეობა (state) */
+
+#a1 {
+    color:red;
+}
+
+#a1:hover {
+    font-size: smaller;
+    text-decoration: none;
+    color: blue;
+}
+
+#a1:active {
+    color:yellow;
+}
+
+#a2 {
+    color:rgb(0, 255, 0);
+}
+
+#a2:hover {
+    font-size: xx-large;
+    text-decoration: wavy underline red;
+    color: rgb(0, 0, 0);
+}
+
+#a2:active {
+    color:brown;
+}
+
+#a3 {
+    color:rgb(30, 0, 255);
+}
+
+#a3:hover {
+    font-size:500px;
+    text-decoration: overline solid;
+    color: rgb(255, 0, 234);
+}
+
+#a3:active {
+    color:rgb(255, 0, 0);
+}
+
+/* pseudo class - css -ში არის სპეციალური კლასი რომელიც ასრულებს ისეთ მოვალეობას რომელსაც სხვა კლასები ვერასრულებენ state ნიშნავს ელემენტის მდგომარეობას*/ 

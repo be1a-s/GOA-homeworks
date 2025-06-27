@@ -1,0 +1,17 @@
+/* ```2) შექმენით ცხრილი რომელსაც ექნება მინიმუმ 3 რიგი და სვეტი, ცხრილი გასტილეთ border კუთვნილების მეშვეობით, ასევე გასტილეთ ცხრილის მონაცემები (th, td) border-ის მეშვეობით, ცხრილის შუა სვეტი გასტილეთ სხვა ფერით (td:nth-child(2) საბოლლოდ ეს ცხრილი მეორედ დააკოპირეთ მეორე ცხრილს მიანიჭეთ border-collapse: collapse; დეკლარაცია. კომენატებით დაწერეთ border კუთვნილების ქვე კუთვნილებები``` */
+
+#table1 {
+    border: 2px dotted red;
+}
+
+td:nth-child(2) {
+    color:red;
+}
+
+#table2 {
+    border: 2px dotted red;
+    border-collapse: collapse;
+    
+}
+
+/* border კუთნილებების ქვე კუთვნილებებია border-width,border-color,border-style */

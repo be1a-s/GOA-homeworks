@@ -1,0 +1,49 @@
+<!-- ```2) შექმენით ცხრილი რომელსაც ექნება მინიმუმ 3 რიგი და სვეტი, ცხრილი გასტილეთ border კუთვნილების მეშვეობით, ასევე გასტილეთ ცხრილის მონაცემები (th, td) border-ის მეშვეობით, ცხრილის შუა სვეტი გასტილეთ სხვა ფერით (td:nth-child(2) საბოლლოდ ეს ცხრილი მეორედ დააკოპირეთ მეორე ცხრილს მიანიჭეთ border-collapse: collapse; დეკლარაცია. კომენატებით დაწერეთ border კუთვნილების ქვე კუთვნილებები``` -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+    <table id="table1" border="1px">
+            <tr>
+            <th class="th_td">place</th>
+            <th class="th_td">grade</th>
+            <th class="th_td">level</th>
+            </tr>
+            <tr>
+            <td class="th_td">2</td>
+            <td class="th_td">75</td>
+            <td class="th_td">4</td>
+            </tr>
+            <tr>
+            <td class="th_td">1</td>
+            <td class="th_td">80</td>
+            <td class="th_td">3</td>
+            </tr>
+    </table>
+    <h2>table 2</h2>
+    <table id="table2">
+            <tr>
+            <th>place</th>
+            <th>grade</th>
+            <th>level</th>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td>75</td>
+            <td>4</td>
+            </tr>
+            <tr>
+            <td>1</td>
+            <td>80</td>
+            <td>3</td>
+            </tr>
+    </table>
+</body>
+</html>
+

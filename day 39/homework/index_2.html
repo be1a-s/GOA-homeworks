@@ -1,0 +1,49 @@
+<!-- 4) შექმენით ცხრილი რომელშიც იქნება სტუდენტების სია, თითოეულს ექნება სახელი, საგანი და ქულა. ცხრილის მეორე სვეტს (საგანს) ცალკე სტილი მიანიჭეთ td:nth-child(2) სელექტორით (მაგ: სხვა ფერი ან ფონური ფერი). მთლიან ცხრილზე და td/th-ებზე გამოიყენეთ border კუთვნილება, ხოლო ცხრილის ბოლოს დააკოპირეთ ის და მეორე ვერსიას მიუმატეთ border-collapse: collapse; კომენატარებში დაწერეთ რა განსხვავებაა ორი ცხრილის გარეგნობაში -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_2.css">
+</head>
+<body>
+        <table id="table1" border="2px">
+            <tr>
+            <th class="th_td">name</th>
+            <th class="th_td">subjeqt</th>
+            <th class="th_td">grade</th>
+            </tr>
+            <tr>
+            <td class="th_td">maxo</td>
+            <td class="th_td">math</td>
+            <td class="th_td">61</td>
+            </tr>
+            <tr>
+            <td class="th_td">vano</td>
+            <td class="th_td">histori</td>
+            <td class="th_td">75</td>
+            </tr>
+    </table>
+    <h2>table 2</h2>
+    <table id="table2" border="1px">
+            <tr>
+            <th>name</th>
+            <th>subjeqt</th>
+            <th>grade</th>
+            </tr>
+            <tr>
+            <td>maxo</td>
+            <td>math</td>
+            <td>61</td>
+            </tr>
+            <tr>
+            <td>vano</td>
+            <td>histori</td>
+            <td>75</td>
+            </tr>
+    </table>
+</body>
+</html>
