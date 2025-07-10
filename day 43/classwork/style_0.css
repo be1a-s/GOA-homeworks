@@ -1,0 +1,18 @@
+/* 1) შექმენით 2 div, box1 და box2 მიანიჭეთ მათ შესაბამისი id, შემდეგ მიანიჭეთ width, ორივე ელემენტს, ასევე backgroundcolor და border კუთვნილებები. შემდეგ პირველ box1-ს გაუწერეთ 15px padding და 40px margin, ხოლო მეორე box-ს გაუწერეთ 10px padding და 30px margin. შემდეგ კომენტარებით დაწერეთ რა არის padding და margin კუთვნილებები და ზოგადად CSS Box Model */
+
+#box1 {
+    width: 150px;
+    background-color: blue;
+    border: 5px solid red;
+    padding: 15px;
+    margin: 40px;
+}
+
+#box2 {
+    width: 150px;
+    background-color: rgb(51, 255, 0);
+    border: 5px solid rgb(139, 6, 135);
+    padding: 10px;
+    margin: 30px;
+}
+/* padding - არის ელემენტის შიდა ადგილი, margin - არის ელემენტის გარე ადგილი box model - მოიცავს content,padding,border,margin */

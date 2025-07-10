@@ -1,0 +1,35 @@
+/* 5) შექმენით უკუკავშირის ფორმა, სადაც იქნება 'სახელი', 'ელფოსტა', 'შეტყობინება' და 'გაგზავნის ღილაკი'. input[type=text] და textarea ელემენტებს მიანიჭეთ border-radius: 5px; border: 1px solid blue; text-transform: capitalize; გამოიყენეთ form ელემენტზე background-color: lightgray; გამოიყენეთ input[type=text]:hover რათა მაუსის გადატარებისას ფონი გახდეს ღია ლურჯი
+
+input[type=text]
+textarea
+border-radius
+border
+text-transform
+background-color
+input[type=text]:hover
+form სელექტორი */
+
+div {
+    width: 200px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    border:1px solid blue;
+}
+
+textarea {
+    border-radius: 5px;
+    border:1px solid blue
+}
+
+form {
+    background-color: lightslategrey;
+}
+
+input[type=text]:hover,input[type=email]:hover,textarea:hover,input[type=submit]:hover {
+    background-color: lightblue;
+}
