@@ -1,0 +1,59 @@
+/* <!-- 4) შექმენით ვებგვერდი, სადაც გამოყენებული იქნება CSS პოზიციონირების ოთხივე ტიპი: static, relative, absolute და fixed. გვერდის ზედა ნაწილში განათავსეთ ფიქსირებული ჰედერი (fixed), რომელშიც ეწერება „ჩემი პროფილი“ და რომელიც დარჩება ეკრანზე გადახვევის დროს. ჰედერის ქვემოთ შექმენით პროფილის ბლოკი (relative), სადაც იქნება ფოტო, სახელი და აღწერა. ამ ბლოკის შიგნით ფოტოს მარჯვენა ზედა კუთხეში დაამატეთ მესიჯის ლოგო (absolute) შეტყობინებების რიცხვით (მაგალითად, 3). ბოლოს დაამატეთ ჩვეულებრივი ტექსტის აბზაცი (static), რომელიც გვერდზე დარჩება ჩვეულებრივ დოკუმენტის ნაკადში. თითოეულ ბლოკს გამოიყენეთ განსხვავებული ფერი და ზომები, რათა პოზიციონირების ეფექტები თვალსაჩინო იყოს --> */
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#imagediv {
+    position: absolute;
+    left:50px;
+    background-image: url(message.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+}
+
+#imagediv2 {
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+h2 {
+    position: static;
+    top: 10px;
+    right: 10px;
+}
+
+#h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+}
+
+#p2 {
+    color: red;
+    text-align:right;
+    font-size: 10px;
+    width: 10px;
+}
+
+#profile {
+    margin-top: 10px;
+    background-color: rgb(205, 205, 205);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70px;
+    border-radius: 5px;
+}

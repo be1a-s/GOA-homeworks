@@ -1,0 +1,33 @@
+/* <!-- 1) შექმენით flexbox განლაგება, რომელშიც იქნება 3 შვილი ელემენტი, basic styles (box-model, colors, flexbox), შემდეგ გამოიყეენთ position კუთვნილება, პირველ ელემნტს გაუწერეთ relative, მეორეს absoulute , მესამეს fixed. ასევე შეცვალეთ თითოეულის მდებოარეობა top, bottom, left, right კუთვნილებებით, კომენტარებით ახსენითთ თითოეული პოზციის ვარიანტი. შეეცადეთ გააკეთოთ ლამაზი დიზანიც მაგალითში */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#parent {
+    display: flex;
+    background-color: aqua;
+    padding: 30px;
+    height: 300px;
+    top: 300px;
+}
+
+#box1 {
+    background-color: blue;
+    position: relative;
+    right: 200px;
+}
+
+#box2 {
+    position: absolute;
+    background-color: purple;
+}
+
+#box3 {
+    position: fixed;
+    background-color: brown;
+    right:250px ;
+}
