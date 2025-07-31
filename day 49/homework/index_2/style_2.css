@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("photo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 500px;
+}
+
+#content {
+    
+    height: 1070px;
+    width: 1000px;
+    margin-left: 42.4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lorem {
+    font-size: x-small;
+    color: rgb(153, 153, 153);
+}
+
+#lorem2 {
+    text-align: center;
+}
+
+#box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 120px;
+}
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    color: white;
+    border-color: blue;
+    background-color: blue;
+}
+
+input:hover , button:hover {
+    border-color: blue;
+    height: 50px;
+    width: 302px;
+
+}
+
+input , button {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#alredy {
+    text-align: right;
+    margin-bottom: 30px;
+}

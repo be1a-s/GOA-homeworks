@@ -1,0 +1,20 @@
+/* 1) შექმენით container div, რომელსაც გაუწერეთ თადავაპირველ ზომებს, borders და background კუთვნილებებს. კომენტარებით ახსენით background-size-ის მნიშვნლობები contain და cover
+
+background-color
+background-image
+background-size
+background-position
+background-attachment */
+
+div {
+    height: 200px;
+    width: 400px;
+    border: 2px solid red;
+    background-color: blue;
+    background-image: url(Yellow-Naped-Amazon-Parrot.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 200px;
+    width: 400px;
+}

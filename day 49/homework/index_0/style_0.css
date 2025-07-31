@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#content {
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    gap: 5px;
+}
+
+.box {
+    color: white;
+    margin: 5px;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box1 {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("seul.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box2 {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("view-old-town-tbilisi-georgia-sunset-131484898\ \(1\).webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box3 {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("bcf497c8b4f486793ca02bcb80c6c92e.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box4 {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("wide-angle-eiffel-tower-paris-3632737.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box5 {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("tokyo-japan-shinjuku-neighborhood-street-photography-night-crowded-streets-lights-188745338.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box6 {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("dubai-city-during-sunrise-breathtaking-600nw-2508298521.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box1:hover {
+    width: 310px;
+    height: 260px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("seul.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box2:hover {
+    width: 310px;
+    height: 260px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("view-old-town-tbilisi-georgia-sunset-131484898\ \(1\).webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box3:hover {
+    width: 310px;
+    height: 260px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("bcf497c8b4f486793ca02bcb80c6c92e.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box4:hover {
+    width: 310px;
+    height: 260px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("wide-angle-eiffel-tower-paris-3632737.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box5:hover {
+    width: 310px;
+    height: 260px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("tokyo-japan-shinjuku-neighborhood-street-photography-night-crowded-streets-lights-188745338.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box6:hover {
+    width: 310px;
+    height: 260px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-image: url("dubai-city-during-sunrise-breathtaking-600nw-2508298521.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
