@@ -1,0 +1,15 @@
+/* <!-- შექმენით div მიანიჭეთ ზომები, ფერი და საზღვარი. შეგიძლიათ border-radius. hover და active მდგომარეობებისას transform კუთვნილების მეშვეობით გარდაქმენით ელემენტი, გამოიყენეთ ყველა trasnform-ის თვისება: translate, rotate, scale, skew. შეეცადეთ შექმნათ ლამაზი ტრანსფორმაცია --> */
+
+.container {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    border: 2px solid green;
+    border-radius: 5px;
+    
+}
+
+.container:hover {
+    transform: translate(30px) rotate(40deg) scale(30px) skew(60deg);
+    
+}
