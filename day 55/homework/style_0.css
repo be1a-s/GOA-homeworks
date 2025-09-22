@@ -1,0 +1,55 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#content {
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#loading {
+    border-radius: 50%;
+    background-color:rgb(39, 39, 39);
+    border: 6px solid grey;
+    border-left-color: white;
+    height: 100px;
+    width: 100px;
+    animation: spin ease-in 500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(260deg);
+    }
+
+    100% {
+        transform: rotate(306deg);
+    }
+}

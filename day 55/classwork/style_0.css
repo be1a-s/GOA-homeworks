@@ -1,0 +1,27 @@
+/* 1) შექმენით მშობელი და შვილი div, მიანიჭეთ ორივე ელემენტს საწყისი ფერი და ზომები. შემდეგ როდესაც მოხდებამ მშობელ div-ზე hover შეცვალეთ შვილი ელემენტის სხვადასხვა თვისება: trasnform: scale, translate, rotate, skew. background-color, border-radius და თქვენთვის სასურველი კუთვნილებები. შემდეგ შვილ div-ს გაუწერეთ transition და გამოიყენეთ მისი ყველა მნიშვნელობა, ყველა თვისებას მიანიჭეთ სხვადასხვა დრო */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#parent {
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+}
+
+#chaild {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transition: transform 2s, background-color 5s, border 3s;
+    transition-timing-function: cubic-bezier(0, 1.64, 1, -0.75);
+}
+
+#parent:hover #chaild{
+    transform: scale(2) skew(45deg) translate(100px) rotate(45deg); 
+    background-color: green;
+    border:2px solid black ;
+}

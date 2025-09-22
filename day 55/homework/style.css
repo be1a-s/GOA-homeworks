@@ -1,0 +1,12 @@
+/* 2) ახსენით რა არის , animations  და რისთვის ვიყენებთ. განმარტეთ თითოეული ქვე-კუთვნილება: animation-name, animation-duration, animation-delay, animation-iteration-count, animation-direction, animation-timing-function */
+
+/* 
+    keyframes = არის წესების ნაკრები სადაც ვწერთ როგორ უნდა შეიცვალოს ელემენტი დროში
+    animations - არის css-ს თვისება და მას ვიყენებთ რომ შევქმნათ ვიზუალური ეფექტი
+    animation-name - ანიმაციის სახელს 
+    animation-duration - ნიშნავს რამდენხანს უნდა გაგრძელდეს ერთი სრული ანიმაცია
+    animation-delay - ნიშნავს ანიმაციის დაწყებამდე შეყოვნებას
+    animation-iteration-count - გადავცემთ რაოდენობას რამდენჯერ გამეორდეს ანიმაცია
+    animation-direction - განსაზღვრავს რომელი მიმართულებით შესრულდეს ანიმაცია
+    animation-timing-function = როგორ იმოძრავოს ანიმაციამ დროის მიხედვით
+*/

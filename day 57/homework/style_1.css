@@ -1,0 +1,46 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+#parent {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-content: space-around;
+}
+
+.chaild {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+#chaild1 {
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+#chaild2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+#chaild3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+}
+#chaild4 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+}

@@ -1,0 +1,51 @@
+/* 2) შექმენით keyframe რომელიც შვილ ელემენტს აბრუნებს მშობელი ელემენტის კიდეების გარშემო. შემდეგ ეს keyframe გაუწერეთ შვილ ელემენტის animation კუთვნილებას, შემდეგ მნიშვნლობებთან ერთად
+
+duration
+timing-function
+delay
+iteration count
+hover: playstate
+fill-state */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#parent {
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+}
+
+#chaild {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation: left-to-right ease-in 2s reverse;
+    animation-iteration-count: infinite;
+    
+}
+
+/* #parent:hover #chaild{
+    
+} */
+
+@keyframes left-to-right {
+    0% {
+        transform: translateY(0%);
+    }
+    33% {
+        transform: translateY(300%);
+    }
+    66% {
+        transform: translateX(300%) translateY(300%);
+    }
+    80% {
+        transform: translateX(300%) translateY(0%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}

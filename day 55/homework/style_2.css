@@ -1,0 +1,243 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#content {
+    background-color: rgb(34, 17, 60);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle1 {
+    height: 800px;
+    width: 800px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin1 ease-in 420s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+#circle2 {
+    height: 730px;
+    width: 730px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin2 ease-in 300s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+#circle3 {
+    height: 660px;
+    width: 660px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin3 ease-in 240s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+#circle4 {
+    height: 590px;
+    width: 590px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin4 ease-in 180s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin4 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+#circle5 {
+    height: 520px;
+    width: 520px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin5 ease-in 120s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin5 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+#circle6 {
+    height: 450px;
+    width: 450px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin6 ease-in 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin6 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+#circle7 {
+    width: 380px;
+    height: 380px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin7 ease-in 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin7 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+#circle8 {
+    height: 310px;
+    width: 310px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin8 ease-in 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin8 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+#circle9 {
+    height: 260px;
+    width: 260px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 3px;
+    border-left-color: brown;
+    animation: spin9 ease-in 7.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin9 {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+#circle10 {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    background-color: yellow;
+}
