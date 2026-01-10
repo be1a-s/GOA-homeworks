@@ -1,0 +1,48 @@
+<!-- 4) შექმენით ფორმა, სადაც მომხმარებელი შეიყვანს სრულ სახელს, ელფოსტას და ტელეფონის ნომერს. ფორმის გაგზავნისას ეს ინფორმაცია დაემატოს ქვემოთ არსებულ ცხრილში ახალ რიგად. გამოიყენეთ JavaScript-ში შექმნილი container და presentational ფუნქციები, რომლებსაც ექნებათ განსხვავებული დანიშნულება, container ფუნქცია მოამზადებს მონაცემებს და შექმნის tr ელემენტს, ხოლო presentational ფუნქცია დაამატებს მას ცხრილში. კომენტარებით ახსენით თითოეული ფუნქციის როლი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        div {
+            width: 400px;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <input type="text" id="fullname" placeholder="Full Name">
+            <hr>
+            <input type="email" id="email" placeholder="Email">
+            <hr>
+            <input type="number" id="num" placeholder="Phone Number">
+        </form>
+        <button>click</button>
+        <table border="1px solid black">
+            <tr>
+                <th>Fullname</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+    
+        </table> 
+    </div>
+    <script src="index_2.js"></script>
+</body>
+</html>
